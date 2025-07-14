@@ -33,8 +33,6 @@ This project is a serverless web application built using AWS services. It provid
 
 # Architecture
 
-# Features
-
 # Setup Steps
 - S3 WebHosting:
     - Prepare `index.html` & `error.html`
@@ -51,19 +49,20 @@ This project is a serverless web application built using AWS services. It provid
     - add HTTPS URL(CloudFront-url) return back for CloudFront URL for Login/Logout
 
 - DynamoDB:
-    - Create a table called product
+    - Create a table called **tasks**
 
 - IAM:
     - create IAM role for lambda function to have access over full access over DB
 
 - Lambda Function:
     - prepare the code to handel each operation 
-    - attache role
+    - attache **IAM role**
     - test & Deploy
 
 - API Gateway:
     - Specify REST APIs
     - Create each api method GET,POST,DELETE,PUT
+    - Enable **CORS**
     - config the authorizer for this apis methods
     - Test & Deploy
 
