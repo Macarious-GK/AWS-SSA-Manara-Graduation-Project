@@ -7,8 +7,8 @@ This project is a serverless web application built using AWS services. It provid
 - [Solution Overview](#solution-overview)
 - [Architecture Diagram](#architecture-diagram)
 - [Architecture](#architecture)
-- [Features](#features)
 - [Setup Steps](#setup-steps)
+- [Demo](#demo)
 
 # Solution Overview
 
@@ -66,5 +66,45 @@ This project is a serverless web application built using AWS services. It provid
     - config the authorizer for this apis methods
     - Test & Deploy
 
+# Demo
+## Hosting Frontend tier app in S3, Config Static website hosting
+<div style="text-align: center;">
+<img src="./images/s3webhost.png" alt="s3" width="750" height="350" style="border-radius: 15px;">
+</div>
+
+## Use CDN infant of S3 Static website for better performance & HTTPS access
+<div style="text-align: center;">
+<img src="./images/cloudfrontcdn.png" alt="CDN" width="750" height="350" style="border-radius: 15px;">
+</div>
+
+## Testing CDN access
+<div style="text-align: center;">
+<img src="./images/testcdnaccess.png" alt="CDN" width="400" height="350" style="border-radius: 15px;">
+</div>
+
+## Using Cognito for User Authentication
+<div style="text-align: center;">
+<img src="./images/cognito.png" alt="s3" width="750" height="350" style="border-radius: 15px;">
+</div>
+
+## Gateway API
+<div style="text-align: center;">
+<img src="./images/apiGateway.png" alt="CDN" width="750" height="350" style="border-radius: 15px;">
+</div>
+
+## Test Lambda Role for DynamoDB access
+<div style="text-align: center;">
+<img src="./images/testlambdafucn_role.png" alt="s3" width="750" height="350" style="border-radius: 15px;">
+</div>
+
+## Test Gateway API Authorizer
+<div style="text-align: center;">
+<img src="./images/apigatewayauth.png" alt="s3" width="750" height="350" style="border-radius: 15px;">
+</div>
+
+## Test Gateway API to forward api to Lambda, then Lambda access DynamoDB
+<div style="text-align: center;">
+<img src="./images/test_apiGateway_lambea_DynamDB.png" alt="s3" width="1000" height="350" style="border-radius: 15px;">
+</div>
 
 
