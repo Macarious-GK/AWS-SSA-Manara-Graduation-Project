@@ -50,4 +50,22 @@ This project is a serverless web application built using AWS services. It provid
     - chose email for user auth
     - add HTTPS URL(CloudFront-url) return back for CloudFront URL for Login/Logout
 
+- DynamoDB:
+    - Create a table called product
+
+- IAM:
+    - create IAM role for lambda function to have access over full access over DB
+
+- Lambda Function:
+    - prepare the code to handel each operation 
+    - attache role
+    - test & Deploy
+
+- API Gateway:
+    - Specify REST APIs
+    - Create each api method GET,POST,DELETE,PUT
+    - config the authorizer for this apis methods
+    - Test & Deploy
+
+
 
