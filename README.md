@@ -78,6 +78,10 @@ This project is a serverless web application built using AWS services. It provid
 - Securing APIs with IAM roles and resource policies.
 
 # Demo
+<div style="text-align: center;">
+<img src="./images/WhatsAppVideo2025-07-14at8.36.59PM-ezgif.com-video-to-gif-converter.gif" alt="s3" width="300" height="550" style="border-radius: 15px;">
+</div>
+
 ## Hosting Frontend tier app in S3, Config Static website hosting
 <div style="text-align: center;">
 <img src="./images/s3webhost.png" alt="s3" width="750" height="350" style="border-radius: 15px;">
