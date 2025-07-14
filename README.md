@@ -79,7 +79,7 @@ This project is a serverless web application built using AWS services. It provid
 
 # Demo
 <div style="text-align: center;">
-<img src="./images/WhatsAppVideo2025-07-14at8.36.59PM-ezgif.com-video-to-gif-converter.gif" alt="s3" width="300" height="550" style="border-radius: 15px;">
+<img src="./images/WhatsAppVideo2025-07-14at8.36.59PM-ezgif.com-video-to-gif-converter.gif" alt="s3" width="300" height="600" style="border-radius: 15px;">
 </div>
 
 ## Hosting Frontend tier app in S3, Config Static website hosting
