@@ -107,4 +107,9 @@ This project is a serverless web application built using AWS services. It provid
 <img src="./images/test_apiGateway_lambea_DynamDB.png" alt="s3" width="1000" height="350" style="border-radius: 15px;">
 </div>
 
+## Testing authenticated/Unauthenticated use of APP/APIs
 
+<div style="text-align: center;">
+<img src="./images/testauth.png" alt="s3" width="1000" height="350" style="border-radius: 15px;">
+<img src="./images/testauth2.png" alt="s3" width="1000" height="350" style="border-radius: 15px;">
+</div>
